@@ -15,4 +15,8 @@ public class GameManager : MonoBehaviour
             Destroy(this);
     }
     #endregion
+
+    public GameObject player; //reference to the player
+    public Transform[] nodes;
+    public Transform[] nodes2;
 }
